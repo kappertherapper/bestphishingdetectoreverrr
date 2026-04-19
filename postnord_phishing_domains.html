@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PostNord – Suspicious Domain Reference</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      color: #222;
+      max-width: 860px;
+      margin: 40px auto;
+      padding: 0 24px 60px;
+      background: #fff;
+    }
+    h1 {
+      font-size: 22px;
+      color: #003d7a;
+      border-bottom: 3px solid #003d7a;
+      padding-bottom: 8px;
+      margin-bottom: 4px;
+    }
+    .subtitle {
+      color: #666;
+      font-size: 12px;
+      margin-bottom: 32px;
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: bold;
+      color: #003d7a;
+      background: #e8f0fb;
+      padding: 6px 12px;
+      border-left: 4px solid #003d7a;
+      margin: 28px 0 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 4px;
+    }
+    th {
+      background: #f0f4fa;
+      text-align: left;
+      padding: 6px 10px;
+      font-size: 11px;
+      color: #444;
+      border-bottom: 1px solid #ccc;
+    }
+    td {
+      padding: 5px 10px;
+      border-bottom: 1px solid #eee;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #f9f9f9; }
+    a.domain {
+      color: #c0392b;
+      text-decoration: none;
+      font-family: monospace;
+      font-size: 12.5px;
+    }
+    a.domain:hover { text-decoration: underline; }
+    .tag {
+      display: inline-block;
+      font-size: 10px;
+      padding: 1px 6px;
+      border-radius: 10px;
+      color: #fff;
+      font-weight: bold;
+    }
+    .tag-sub   { background: #8e44ad; }
+    .tag-pre   { background: #2980b9; }
+    .tag-typo  { background: #e67e22; }
+    .tag-homo  { background: #c0392b; }
+    .tag-tld   { background: #27ae60; }
+    .tag-path  { background: #7f8c8d; }
+    .tag-enc   { background: #d35400; }
+    .tag-hyp   { background: #16a085; }
+    .tag-word  { background: #8e44ad; }
+    .tag-idn   { background: #2c3e50; }
+    .tag-combo { background: #c0392b; }
+    .tag-ip    { background: #555; }
+    .tag-port  { background: #333; }
+    .warning {
+      background: #fff8e1;
+      border: 1px solid #f0c040;
+      border-radius: 4px;
+      padding: 10px 14px;
+      font-size: 12px;
+      margin-bottom: 28px;
+      color: #7a5c00;
+    }
+    .warning strong { color: #c0392b; }
+    .num { color: #999; font-size: 11px; width: 26px; }
+  </style>
+</head>
+<body>
+
+<h1>PostNord – Suspicious &amp; Phishing Domain Reference</h1>
+<div class="subtitle">Generated April 2026 · For security awareness and monitoring purposes</div>
+
+<div class="warning">
+  ⚠️ <strong>Warning:</strong> The links below point to known or hypothetical phishing/malicious domains.
+  They are listed here for reference and awareness only. <strong>Do not visit these URLs</strong> unless you are a security professional conducting controlled research.
+</div>
+
+<!-- 1. SUBDOMAINS -->
+<h2>1. Subdomain Spoofing</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><a class="domain" href="http://postnord.dk.some-malicious-site.com" target="_blank" rel="noopener noreferrer">postnord.dk.some-malicious-site.com</a></td><td><span class="tag tag-sub">Subdomain</span></td></tr>
+  <tr><td class="num">2</td><td><a class="domain" href="http://secure.postnord.dk.malicious.com" target="_blank" rel="noopener noreferrer">secure.postnord.dk.malicious.com</a></td><td><span class="tag tag-sub">Subdomain</span></td></tr>
+  <tr><td class="num">3</td><td><a class="domain" href="http://login.postnord.dk.fake-site.org" target="_blank" rel="noopener noreferrer">login.postnord.dk.fake-site.org</a></td><td><span class="tag tag-sub">Subdomain</span></td></tr>
+</table>
+
+<!-- 2. PREFIXES -->
+<h2>2. Prefix Spoofing</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><a class="domain" href="http://secure-postnord.dk" target="_blank" rel="noopener noreferrer">secure-postnord.dk</a></td><td><span class="tag tag-pre">Prefix</span></td></tr>
+  <tr><td class="num">2</td><td><a class="domain" href="http://login-postnord.dk" target="_blank" rel="noopener noreferrer">login-postnord.dk</a></td><td><span class="tag tag-pre">Prefix</span></td></tr>
+  <tr><td class="num">3</td><td><a class="domain" href="http://verify-postnord.dk" target="_blank" rel="noopener noreferrer">verify-postnord.dk</a></td><td><span class="tag tag-pre">Prefix</span></td></tr>
+  <tr><td class="num">4</td><td><a class="domain" href="http://account-postnord.dk" target="_blank" rel="noopener noreferrer">account-postnord.dk</a></td><td><span class="tag tag-pre">Prefix</span></td></tr>
+  <tr><td class="num">5</td><td><a class="domain" href="http://update-postnord.dk" target="_blank" rel="noopener noreferrer">update-postnord.dk</a></td><td><span class="tag tag-pre">Prefix</span></td></tr>
+  <tr><td class="num">6</td><td><a class="domain" href="http://service-postnord.dk" target="_blank" rel="noopener noreferrer">service-postnord.dk</a></td><td><span class="tag tag-pre">Prefix</span></td></tr>
+  <tr><td class="num">7</td><td><a class="domain" href="http://online-postnord.dk" target="_blank" rel="noopener noreferrer">online-postnord.dk</a></td><td><span class="tag tag-pre">Prefix</span></td></tr>
+</table>
+
+<!-- 3. TYPOSQUATTING -->
+<h2>3. Typosquatting (Common Misspellings)</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><a class="domain" href="http://postnorddk.com" target="_blank" rel="noopener noreferrer">postnorddk.com</a></td><td><span class="tag tag-typo">Typo</span></td></tr>
+  <tr><td class="num">2</td><td><a class="domain" href="http://postnord-dk.com" target="_blank" rel="noopener noreferrer">postnord-dk.com</a></td><td><span class="tag tag-typo">Typo</span></td></tr>
+  <tr><td class="num">3</td><td><a class="domain" href="http://postnord.dk.com" target="_blank" rel="noopener noreferrer">postnord.dk.com</a></td><td><span class="tag tag-typo">Typo</span></td></tr>
+  <tr><td class="num">4</td><td><a class="domain" href="http://postnordd.k" target="_blank" rel="noopener noreferrer">postnordd.k</a></td><td><span class="tag tag-typo">Typo</span></td></tr>
+  <tr><td class="num">5</td><td><a class="domain" href="http://postn0rd.dk" target="_blank" rel="noopener noreferrer">postn0rd.dk</a></td><td><span class="tag tag-typo">Typo</span> zero for 'o'</td></tr>
+  <tr><td class="num">6</td><td><a class="domain" href="http://postnordd.dk" target="_blank" rel="noopener noreferrer">postnordd.dk</a></td><td><span class="tag tag-typo">Typo</span> double 'd'</td></tr>
+  <tr><td class="num">7</td><td><a class="domain" href="http://postnordk.dk" target="_blank" rel="noopener noreferrer">postnordk.dk</a></td><td><span class="tag tag-typo">Typo</span></td></tr>
+  <tr><td class="num">8</td><td><a class="domain" href="http://postnord.dkk" target="_blank" rel="noopener noreferrer">postnord.dkk</a></td><td><span class="tag tag-typo">Typo</span></td></tr>
+  <tr><td class="num">9</td><td><a class="domain" href="http://postnordd.dkk" target="_blank" rel="noopener noreferrer">postnordd.dkk</a></td><td><span class="tag tag-typo">Typo</span></td></tr>
+  <tr><td class="num">10</td><td><a class="domain" href="http://postnordd.com" target="_blank" rel="noopener noreferrer">postnordd.com</a></td><td><span class="tag tag-typo">Typo</span></td></tr>
+</table>
+
+<!-- 4. HOMOGRAPH -->
+<h2>4. Homograph Attacks (Similar-Looking Characters)</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><a class="domain" href="http://póstnord.dk" target="_blank" rel="noopener noreferrer">póstnord.dk</a></td><td><span class="tag tag-homo">Homograph</span> accented 'ó'</td></tr>
+  <tr><td class="num">2</td><td><a class="domain" href="http://роstnord.dk" target="_blank" rel="noopener noreferrer">роstnord.dk</a></td><td><span class="tag tag-homo">Homograph</span> Cyrillic 'р'</td></tr>
+  <tr><td class="num">3</td><td><a class="domain" href="http://postnord.dḱ" target="_blank" rel="noopener noreferrer">postnord.dḱ</a></td><td><span class="tag tag-homo">Homograph</span> combining chars</td></tr>
+</table>
+
+<!-- 5. DIFFERENT TLDs -->
+<h2>5. Different Top-Level Domains (TLDs)</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><a class="domain" href="http://postnord.com" target="_blank" rel="noopener noreferrer">postnord.com</a></td><td><span class="tag tag-tld">TLD</span></td></tr>
+  <tr><td class="num">2</td><td><a class="domain" href="http://postnord.net" target="_blank" rel="noopener noreferrer">postnord.net</a></td><td><span class="tag tag-tld">TLD</span></td></tr>
+  <tr><td class="num">3</td><td><a class="domain" href="http://postnord.org" target="_blank" rel="noopener noreferrer">postnord.org</a></td><td><span class="tag tag-tld">TLD</span></td></tr>
+  <tr><td class="num">4</td><td><a class="domain" href="http://postnord.co" target="_blank" rel="noopener noreferrer">postnord.co</a></td><td><span class="tag tag-tld">TLD</span></td></tr>
+  <tr><td class="num">5</td><td><a class="domain" href="http://postnord.info" target="_blank" rel="noopener noreferrer">postnord.info</a></td><td><span class="tag tag-tld">TLD</span></td></tr>
+  <tr><td class="num">6</td><td><a class="domain" href="http://postnord.biz" target="_blank" rel="noopener noreferrer">postnord.biz</a></td><td><span class="tag tag-tld">TLD</span></td></tr>
+  <tr><td class="num">7</td><td><a class="domain" href="http://postnord.online" target="_blank" rel="noopener noreferrer">postnord.online</a></td><td><span class="tag tag-tld">TLD</span></td></tr>
+  <tr><td class="num">8</td><td><a class="domain" href="http://postnord.site" target="_blank" rel="noopener noreferrer">postnord.site</a></td><td><span class="tag tag-tld">TLD</span></td></tr>
+</table>
+
+<!-- 6. PATH MANIPULATION -->
+<h2>6. Path Manipulation</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><a class="domain" href="http://some-malicious-site.com/postnord.dk/login" target="_blank" rel="noopener noreferrer">some-malicious-site.com/postnord.dk/login</a></td><td><span class="tag tag-path">Path</span></td></tr>
+  <tr><td class="num">2</td><td><a class="domain" href="http://fake-site.org/postnord.dk/secure" target="_blank" rel="noopener noreferrer">fake-site.org/postnord.dk/secure</a></td><td><span class="tag tag-path">Path</span></td></tr>
+</table>
+
+<!-- 7. URL ENCODING -->
+<h2>7. URL Encoding</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><span class="domain" style="color:#c0392b;font-family:monospace;font-size:12.5px;">postnord.dk%01.evil.com</span></td><td><span class="tag tag-enc">Encoding</span> null byte trick</td></tr>
+  <tr><td class="num">2</td><td><span class="domain" style="color:#c0392b;font-family:monospace;font-size:12.5px;">postnord.dk@evil.com</span></td><td><span class="tag tag-enc">Encoding</span> @ trick</td></tr>
+</table>
+
+<!-- 8. HYPHENATION -->
+<h2>8. Hyphenation Variations</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><a class="domain" href="http://post-nord.dk" target="_blank" rel="noopener noreferrer">post-nord.dk</a></td><td><span class="tag tag-hyp">Hyphen</span></td></tr>
+  <tr><td class="num">2</td><td><a class="domain" href="http://postnord-dk.com" target="_blank" rel="noopener noreferrer">postnord-dk.com</a></td><td><span class="tag tag-hyp">Hyphen</span></td></tr>
+  <tr><td class="num">3</td><td><a class="domain" href="http://postnord-dk.net" target="_blank" rel="noopener noreferrer">postnord-dk.net</a></td><td><span class="tag tag-hyp">Hyphen</span></td></tr>
+</table>
+
+<!-- 9. EXTRA WORDS -->
+<h2>9. Added Keywords</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><a class="domain" href="http://postnordaccount.dk" target="_blank" rel="noopener noreferrer">postnordaccount.dk</a></td><td><span class="tag tag-word">Keyword</span></td></tr>
+  <tr><td class="num">2</td><td><a class="domain" href="http://postnordsecure.dk" target="_blank" rel="noopener noreferrer">postnordsecure.dk</a></td><td><span class="tag tag-word">Keyword</span></td></tr>
+  <tr><td class="num">3</td><td><a class="domain" href="http://postnordlogin.dk" target="_blank" rel="noopener noreferrer">postnordlogin.dk</a></td><td><span class="tag tag-word">Keyword</span></td></tr>
+  <tr><td class="num">4</td><td><a class="domain" href="http://postnordservice.dk" target="_blank" rel="noopener noreferrer">postnordservice.dk</a></td><td><span class="tag tag-word">Keyword</span></td></tr>
+  <tr><td class="num">5</td><td><a class="domain" href="http://postnordverify.dk" target="_blank" rel="noopener noreferrer">postnordverify.dk</a></td><td><span class="tag tag-word">Keyword</span></td></tr>
+</table>
+
+<!-- 10. IDN -->
+<h2>10. Internationalized Domain Names (IDN / Punycode)</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><a class="domain" href="http://xn--pstnord-9za.dk" target="_blank" rel="noopener noreferrer">xn--pstnord-9za.dk</a></td><td><span class="tag tag-idn">IDN/Punycode</span></td></tr>
+</table>
+
+<!-- 11. COMBINED -->
+<h2>11. Combined Techniques</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><a class="domain" href="http://secure-postnord-account.dk.fake-site.com" target="_blank" rel="noopener noreferrer">secure-postnord-account.dk.fake-site.com</a></td><td><span class="tag tag-combo">Combined</span></td></tr>
+  <tr><td class="num">2</td><td><a class="domain" href="http://login.postnord.secure-site.biz" target="_blank" rel="noopener noreferrer">login.postnord.secure-site.biz</a></td><td><span class="tag tag-combo">Combined</span></td></tr>
+  <tr><td class="num">3</td><td><a class="domain" href="http://postnord-dk-account-verification.com" target="_blank" rel="noopener noreferrer">postnord-dk-account-verification.com</a></td><td><span class="tag tag-combo">Combined</span></td></tr>
+</table>
+
+<!-- 12. IP ADDRESSES -->
+<h2>12. IP Address Spoofing</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><a class="domain" href="http://192.168.1.1/postnord.dk" target="_blank" rel="noopener noreferrer">http://192.168.1.1/postnord.dk</a></td><td><span class="tag tag-ip">IP Address</span></td></tr>
+</table>
+
+<!-- 13. PORT NUMBERS -->
+<h2>13. Port Number Obfuscation</h2>
+<table>
+  <tr><th class="num">#</th><th>Domain</th><th>Technique</th></tr>
+  <tr><td class="num">1</td><td><span class="domain" style="color:#c0392b;font-family:monospace;font-size:12.5px;">postnord.dk:8080@evil.com</span></td><td><span class="tag tag-port">Port + @</span></td></tr>
+</table>
+
+</body>
+</html>
