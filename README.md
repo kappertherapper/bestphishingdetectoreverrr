@@ -10,8 +10,8 @@ A lightweight browser extension that detects phishing websites in real-time.
 <br>
 
 💡 Why Use It?
-Phishing attacks are becoming increasingly sophisticated. 
-This extension helps you stay safe so you can browse with confidence.
+- Phishing attacks are becoming increasingly sophisticated. 
+- This extension helps you stay safe so you can browse with confidence.
 
 <br>
 
