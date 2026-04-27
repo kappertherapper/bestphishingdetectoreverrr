@@ -33,7 +33,7 @@ Browse safely! 🎉
 <br>
 
 📢 Feedback & Contributions
-Found a bug or have a suggestion? 
-Open an issue or submit a pull request! 
+- Found a bug or have a suggestion? 
+- Open an issue or submit a pull request! 
 
 Your feedback helps make this extension even better.
